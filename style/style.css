@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-.header{
+/* pour supprimer les marges par defaut de la page important */
+*{
+    margin: 0; 
+    padding: 0;
+}
+#header{
     background-color: #1f2438;
     height: 15vh;
     position: relative;
@@ -7,44 +12,35 @@
     font-style: italic;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.header ul{
+#header ul{
     list-style: none;
     display: flex;
    
 }
-.header li{
-    
+#header li{
     padding: 15px;
 }
 .logo{
     font-size: xx-large;
-    
 }
 /* end styling header */
 
-.hero{
+#hero{
     width: 100%;
-   
     position: relative;
     box-sizing: border-box;
-   
-    margin-left: -10px;
     font-style: italic;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    
 }
-.hero img{
-    height: 144vh;
+#hero img{
     position: relative;
+    width: 100%;
 }
 /* hero image  */
 
@@ -58,13 +54,10 @@
     margin-left: 40%;
     text-align: center;
     justify-content: center;
-    border-top: -60px;
     border: 3px solid white;
     border-radius: 8px;
     font-size: large;
     font-style: italic;
-    
-   
 }
 
 .card h2{
@@ -72,17 +65,38 @@
     border-radius: 8px;
     width: 80%;
     height: 80%;
+    margin-bottom: -20%;
+    margin-top: 12%;
 }
 
 /* card on hero design done */
 
-.hero P{
+#hero P{
     margin-top: -25%;
     color: white;
     position: absolute;
-    margin-left: 20%;
-    
+   
+    text-align: center;
+}
+
+/* groupe one start */
+
+.group_one{
+    background-color: #1f2438;
+    width: 100%;
+}
+
+.group1{
+    width: 70%;
+    position: absolute;
    
     
+    display: flex;
     
+    
+    justify-content: center;
+   
+    border: 3px solid black;
+    
+   
 }
