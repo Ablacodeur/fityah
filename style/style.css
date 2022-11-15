@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.header{
+    background-color: #1f2438;
+    height: 15vh;
+    position: relative;
+    color: #ffffff;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+   
+}
+.header li{
+    
+    padding: 15px;
+}
+.logo{
+    font-size: xx-large;
+    
+}
+/* end styling header */
+
+.hero{
+    width: 100%;
+   
+    position: relative;
+    box-sizing: border-box;
+   
+    margin-left: -10px;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+.hero img{
+    height: 144vh;
+    position: relative;
+}
+/* hero image  */
+
+.card{
+    position: absolute;
+    margin-top: -60%;
+    color: #EF6526;
+    display: flex;
+    width: 20%;
+    height: 40%;
+    margin-left: 40%;
+    text-align: center;
+    justify-content: center;
+    border-top: -60px;
+    border: 3px solid white;
+    border-radius: 8px;
+    font-size: large;
+    font-style: italic;
+    
+   
+}
+
+.card h2{
+    border: 3px solid white;
+    border-radius: 8px;
+    width: 80%;
+    height: 80%;
+}
+
+/* card on hero design done */
+
+.hero P{
+    margin-top: -25%;
+    color: white;
+    position: absolute;
+    margin-left: 20%;
+    
+   
+    
+    
+}
