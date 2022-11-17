@@ -98,6 +98,7 @@
 .group_one{
     background-color: #1f2438;
     width: 100%;
+    /* position: relative; */
   
 }
 
@@ -110,6 +111,8 @@
     border: 3px solid white;
     color: white;
     border-radius: 5px;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
 .g1hero{
@@ -121,11 +124,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5%;
+    box-sizing: border-box;
 }
 .click{
     display: flex;
     flex-direction: row;
-    margin-top: 15%;
+    margin-top: 10%;
     
     
 }
@@ -152,3 +156,81 @@ button{
     text-align: center;
     justify-content: center;
 }
+
+.picture{
+    position: relative;
+    margin: 10vh;
+}
+.picture_grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 3vh;
+    position: relative;
+    box-sizing: border-box;
+  
+}
+.picture_grid img{
+    width: auto;
+    width: 40vh;
+    box-sizing: border-box;
+    
+   
+}
+
+/* write number on the picture start */
+.picture_number{
+    position: relative;
+    margin: 2px;
+}
+.number{
+    margin-left: -80%;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.number_descr{
+    margin-top: -65%;
+    margin-left: 30%;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+/* write number on the picture end */
+
+/* making ligne vertical and horizontal on the image start */
+.lign{
+    width: 36%;
+    margin-left: 30%;
+    position: relative;
+    top: -27vh;
+   
+}
+.vertical{
+    position: relative;
+    left: 17%;
+    top: 6vh;
+    
+}
+.lign2{
+    width: 51%;
+    margin-left: 13%;
+    position: relative;
+    top: -27vh;
+   
+}
+
+.vertical2{
+    position: relative;
+    right: 39%;
+    bottom: 29vh;
+    
+}
+/* making ligne vertical and horizontal on the image end */
