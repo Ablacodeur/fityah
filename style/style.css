@@ -9,7 +9,13 @@
     color: #EF6526;
     font-size: xx-large;
     font-weight: bolder;
+    
+}
+.color_text1{
+    color: #EF6526;
+    font-size: large;
     font-weight: bolder;
+  
 }
 .bgcolor{
     background-color: #EF6526;
@@ -234,3 +240,32 @@ button{
     
 }
 /* making ligne vertical and horizontal on the image end */
+
+.coach{
+    background-image: url("fityah/tobias-nii-kwatei-quartey-2-kfBa27AyU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+   
+}
+
+.coach_card img{
+    width: 4vh;
+    border-radius: 4px;
+    
+}
+.coach_card{
+    padding: 2vh;
+    border-radius: 2px;
+    position: relative;
+    background-color: #1f2438;
+    opacity: 0.8;
+}
+.coach{
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 20vh;
+}
