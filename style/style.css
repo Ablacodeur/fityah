@@ -119,6 +119,8 @@
     border-radius: 5px;
     flex-direction: column;
     box-sizing: border-box;
+    /* padding: 5vh; */
+    padding-bottom: 5vh;
 }
 
 .g1hero{
@@ -241,6 +243,7 @@ button{
 }
 /* making ligne vertical and horizontal on the image end */
 
+/* coach session start */
 .coach{
     background-image: url("fityah/tobias-nii-kwatei-quartey-2-kfBa27AyU-unsplash.jpg");
     background-repeat: no-repeat;
@@ -269,3 +272,29 @@ button{
    justify-content: space-around;
    padding: 20vh;
 }
+
+/* coach session end */
+
+/* any picture session unlist pic start */
+.picture_grid2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 3vh;
+    position: relative;
+    box-sizing: border-box;
+    padding: 5vh;
+  
+}
+.picture_grid2 img{
+    width: auto;
+    width: 40vh;
+    box-sizing: border-box;
+    
+}
+.picture2{
+    padding: 5vh;
+    text-align: center;
+}
+/* any picture session unlist pic end */
