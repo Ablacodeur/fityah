@@ -3,6 +3,10 @@
 *{
     margin: 0; 
     padding: 0;
+    
+}
+body{
+    background-color: #1f2438;
 }
 
 .color_text{
@@ -102,8 +106,9 @@
 /* groupe one start */
 
 .group_one{
-    background-color: #1f2438;
+   
     width: 100%;
+    margin-bottom: 15vh;
     /* position: relative; */
   
 }
@@ -298,3 +303,67 @@ button{
     text-align: center;
 }
 /* any picture session unlist pic end */
+
+.bodyimg{
+    height: 100vh;
+    width: 100%; 
+}
+
+.detail{
+    background-image: url("fityah/cathy-pham-3jAN9InapQI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20vh;
+}
+
+table th{
+    border: 1px solid white;
+}
+
+.plus{
+    margin: 25vh;
+}
+
+.plus h2{
+    color: #EF6526;
+    margin-bottom: 5vh;
+}
+
+.plus p{
+    margin-left: 98vh;
+    color: #EF6526;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.group_two h1{
+    color: #EF6526;
+    margin-left: 20%;
+    margin-bottom: 10rem;
+    margin-top: 5%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+.group2{
+    width: 70%;
+    position: relative;
+    display: flex;
+    margin-left: 20%;
+    border: 3px solid white;
+    color: white;
+    border-radius: 5px;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 5vh;
+}
+
+
