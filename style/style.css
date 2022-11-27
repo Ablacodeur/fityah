@@ -21,6 +21,10 @@ body{
     font-weight: bolder;
   
 }
+
+.text_white{
+    color: white;
+}
 .bgcolor{
     background-color: #EF6526;
     color: white;
@@ -321,11 +325,7 @@ button{
     justify-content: space-around;
     padding: 20vh;
 }
-
-table th{
-    border: 1px solid white;
-}
-
+/* + lign start */
 .plus{
     margin: 25vh;
 }
@@ -342,6 +342,7 @@ table th{
     font-size: x-large;
     margin-bottom: 1rem;
 }
+/* + lign end */
 
 .group_two h1{
     color: #EF6526;
@@ -366,4 +367,53 @@ table th{
     padding-bottom: 5vh;
 }
 
+/* rubric section start */
+.rub_card{
+   
+    border-radius: 2px;
+    position: relative;
+    background-color: #1f2438;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 60vh;
+    height: 40vh;
+    border-radius: 3px;
+    color: white;
 
+}
+
+.rub_card p{
+   padding: 3vh;
+}
+.rubrique{
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 10vh;
+  
+}
+
+.rubric{
+    background-image: url("fityah/cyril-saulnier-TsVN31Dzyv4-unsplash.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    color: #EF6526;
+    opacity: 0.8;
+}
+
+
+.rub_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -15%;
+    margin-top: 10%;
+    font-weight: bolder;
+    font-size: x-large;
+}
+/* rubric section end */
