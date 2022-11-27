@@ -21,7 +21,10 @@ body{
     font-weight: bolder;
   
 }
-
+.big{
+    font-size: xx-large;
+    font-weight: bolder;
+}
 .text_white{
     color: white;
 }
@@ -417,3 +420,44 @@ button{
     font-size: x-large;
 }
 /* rubric section end */
+
+/* social media start */
+.social_media{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.social_media img{
+    width: 30%;
+}
+
+.social_media ul{
+    list-style: none;
+    margin-top: 10vh;
+   
+}
+.social_media li{
+    padding: 2vh;
+    font-size: x-large;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a :hover{
+    color: #EF6526;
+    font-size: xx-large;
+}
+
+.link p{
+    margin-left: 20vh;
+    
+    color: #EF6526;
+    
+}
+
+/* social media end */
