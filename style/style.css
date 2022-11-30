@@ -327,6 +327,18 @@ button{
     justify-content: space-around;
     padding: 20vh;
 }
+.detail_card img{
+    width: 4vh;
+    border-radius: 4px;
+    
+}
+.detail_card{
+    padding: 2vh;
+    border-radius: 2px;
+    position: relative;
+    background-color: #1f2438;
+    opacity: 0.8;
+}
 /* + lign start */
 #plus{
     margin: 25vh;
@@ -552,6 +564,11 @@ footer{
         margin: 5px;
     }
 
+    .detail_card{
+        margin: 5px;
+    }
+
+
     #coach{
         flex-direction: column;
         justify-content: space-evenly;
@@ -623,5 +640,83 @@ footer{
        
     }
     
+}
+/* media queries end  */
+
+
+@media all and (max-width: 414px){
+
+    .click p{
+        font-size: x-small;
+    }
+    .picture_grid img{
+        width: 15vh;
+    }
+    #coach{
+        padding: 5vh;
+    }
+
+    .coach_card button{
+        width: 80px;
+    }
+    .picture_grid2 img{
+        width: 10vh;
+    }
+
+    .group_two h1{
+        font-size: 20px;
+    }
+
+    .bodyimg{
+        height: 40vh;
+        width: 100%; 
+    }
+    .detail_card img{
+        width: 2vh;
+    }
+    .detail_card{
+        padding: 1vh;
+    }
+    .detail_card button{
+        width: 60px;
+    }
+    #detail{
+        padding: 2vh;
+    }
+    #plus{
+        margin: 3vh;
+    }
+    #plus p{
+        margin-left: 24vh;
+        font-size: medium ;
+    }
+
+    #social_media img{
+        width: 30%;
+        height: 200px;
+    }
+
+    #social_media{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 5px;
+    }
+    
+    
+    #social_media ul{
+        list-style: none;
+        margin-top: 5vh;
+       
+    }
+    #social_media li{
+        padding: 1vh;
+    }
+
+    .big{
+        font-size: small;
+        font-weight: bolder;
+    }
 }
 /* media queries end  */
