@@ -643,9 +643,18 @@ footer{
 }
 /* media queries end  */
 
-
 @media all and (max-width: 414px){
-
+   
+    .group2{
+        margin-top: -10vh;
+    }
+    
+    #foot{
+        margin-left: -20%;
+    }
+    #foot h1{
+        left: 30%;
+    }
     .click p{
         font-size: x-small;
     }
@@ -718,5 +727,63 @@ footer{
         font-size: small;
         font-weight: bolder;
     }
+    .card{
+        font-size: small;
+    }
+    #hero P{
+        margin-top: -30%;
+       font-size: smaller;
+    }
+    button{
+        padding: 5px;
+    }
+    
+    .click p{
+        margin-top: -10%;
+        padding: 13px;
+        
+        /* faire un media queries sur mobile pour le font-size */
+        
+    }
+    
 }
-/* media queries end  */
+
+@media screen and (min-width: 900px) and (max-width:1280px) {
+    .coach_card{
+       margin: 8px;
+    }
+    .picture_grid2 img{
+        width: 25vh;
+    }
+    .detail_card{
+        margin: 8px;
+    }
+    #plus{
+        margin: 15vh;
+    }
+    #plus p{
+        margin-left: 80vh;
+    }
+     .rub_card{
+        margin: 5px;
+
+    }
+    
+    .rub_card p{
+      display: none;
+    }
+}
+
+@media screen and (max-width:375px){
+    #plus{
+        margin: 5vh;
+    }
+    
+    #plus p{
+        margin-left: 25vh;
+    }
+    #plus h2{
+       font-size: smaller;
+    }
+
+}
